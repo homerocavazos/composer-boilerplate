@@ -1,0 +1,24 @@
+{
+    "name": "homero/boilerplate",
+    "description": "A composer boilerplate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Homero Cavazos",
+            "email": "homerocavazos@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "app/lib/", "app/classes/"
+        ],
+        "files": [
+            "app/functions.php"
+        ],
+        "psr-4": {
+            "Boilerplate\\": "app/"
+        }
+    },
+    "require": {},
+    "minimum-stability": "stable"
+}
